@@ -1149,7 +1149,7 @@ function renderMenu(){
       <div class="item-name">${item.name}</div>
       <div class="item-price">${formatRp(item.price)}</div>
       ${item.hasShot ? '<div class="shot-tag">Pilih shot</div>' : ''}
-      ${item.notCup ? '<div class="shot-tag">🪣 Galon</div>' : ''}
+      ${item.notCup ? '<div class="shot-tag">💧 Galon</div>' : ''}
       <div class="item-recipe"><b>Resep</b><ul>${item.recipe.map(r => `<li>${r}</li>`).join('')}</ul></div>
     `;
     grid.appendChild(card);
